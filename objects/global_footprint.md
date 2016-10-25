@@ -8,7 +8,7 @@ var myCounter = {
     plusPlus : function(){
         this.number : this.number + 1;
     },
-    isGreaterThanTen : function(){
+    isGreaterThanTen = function(){
         return this.number > 10;
     }
 }
